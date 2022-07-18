@@ -15,7 +15,7 @@ module.exports = {
     NETWORK: process.env.NETWORK,
     DISABLE_DB: process.env.DISABLE_DB
   },
-
+  target: 'static',
   version: pkg.version,
 
   /*
